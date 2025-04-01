@@ -5,6 +5,7 @@ const cors = require('cors');
 
 const PORT = process.env.SECONDARY_PUBLIC_PORT || 8000;
 
+
 const app = express();
 
 // Custom middleware function to log requests and response status
